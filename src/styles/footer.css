@@ -1,0 +1,144 @@
+/* Footer Styles */
+.footer-container {
+  width: 100%;
+  padding: 40px 0;
+  background: linear-gradient(102.87deg, #FCEED5 6.43%, #FFE7BA 104.24%);
+  border-radius: 40px 40px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Frame 26 */
+.frame-26 {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Text in Footer */
+.frame-26 p {
+  font-family: 'SVN-Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667479;
+}
+
+.frame-26 .footer-link {
+  font-family: 'SVN-Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #667479;
+  text-decoration: none;
+}
+
+/* Frame 28 */
+.frame-28 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  border-bottom: 1px solid #CCD1D2;
+  padding-bottom: 40px;
+}
+
+/* Frame 23 - Newsletter Signup */
+.frame-23 {
+  display: flex;
+  justify-content: space-between;
+  background: #003459;
+  border-radius: 16px;
+  padding: 32px;
+  width: 100%;
+}
+
+.frame-23 h2 {
+  font-family: 'SVN-Gilroy', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #FDFDFD;
+  margin: 0;
+}
+
+.frame-24 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #FFFFFF;
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.footer-input {
+  padding: 14px 28px;
+  border: 1px solid #99A2A5;
+  border-radius: 8px;
+  font-family: 'SVN-Gilroy', sans-serif;
+  font-size: 14px;
+  color: #99A2A5;
+}
+
+.button-l {
+  padding: 14px 28px;
+  background: #003459;
+  border-radius: 8px;
+  font-family: 'SVN-Gilroy', sans-serif;
+  font-size: 16px;
+  color: #FDFDFD;
+  border: none;
+  cursor: pointer;
+}
+
+/* Frame 27 - Links and Social Icons */
+.frame-27 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.frame-2 {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-link {
+  font-family: 'SVN-Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #00171F;
+  text-decoration: none;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  background-color: #00171F;
+  border-radius: 50%;
+}
+
+.facebook-icon {
+  background: url('../assets/facebook_1384005.png') no-repeat center center;
+}
+
+.twitter-icon {
+  background: url('../assets/facebook_1384005.png') no-repeat center center;
+}
+
+.instagram-icon {
+  background: url('../assets/instagram_1384015.png') no-repeat center center;
+}
+
+.youtube-icon {
+  background: url('../assets/youtube_1384012.png') no-repeat center center;
+}

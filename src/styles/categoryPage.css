@@ -1,0 +1,111 @@
+/* General container for the pet list section */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Pet list grid styling */
+.pet-list {
+  flex: 1;
+  padding-left: 20px; /* Space between the sidebar and the list */
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Grid layout for pet cards */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Default to one column for small screens */
+  gap: 20px;
+}
+
+/* Two columns for medium screens */
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Three columns for large screens */
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Individual pet card styling */
+.pet-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.pet-card:hover {
+  transform: translateY(-5px);
+}
+
+.pet-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Text inside each pet card */
+.pet-card-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.pet-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pet-card-price {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Pagination styling */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.pagination-button {
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination-button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.pagination-dots {
+  display: inline-block;
+  padding: 10px;
+  color: #999;
+}
+
+/* Active pagination button */
+.pagination-button.active {
+  background-color: #007bff;
+  color: white;
+}
